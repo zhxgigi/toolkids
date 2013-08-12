@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/hongxun/projects/leveldb'
-let g:netrw_dirhist_2='/Users/hongxun/projects/leveldb/db'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/hongxun/.vim_janus/janus'
+let g:netrw_dirhist_2='/Users/hongxun/.vim_janus/janus/vim'
+let g:netrw_dirhist_3='/Users/hongxun/projects/leveldb'
+let g:netrw_dirhist_4='/Users/hongxun/projects/leveldb/table'

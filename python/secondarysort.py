@@ -21,3 +21,15 @@ def mycmp(item1, item2):
 random.shuffle(data)
 data.sort(cmp=mycmp, reverse=True)
 print data
+from operator import itemgetter
+
+def secondary_sort(data):
+    return sorted(sorted(data, key=itemgetter(0)),
+                key=itemgetter(1), reverse=True)
+data = [
+                (1, 10.0), (2, 11.0), (3, 12.0),
+                (4, 10.0), (5, 14.0), (4, 15.0),
+                (0, 15.0),
+        ]
+result = [(0, 15.0), (4, 15.0), (5, 14.0), (3, 12.0), (2, 11.0), (1, 10.0), (4, 10.0)]
+

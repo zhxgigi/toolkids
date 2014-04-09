@@ -7,6 +7,6 @@
 #
 
 
-/Users/hongxun/.virtualenvs/aa/bin/supervisord -c /Users/hongxun/projects/toolkids/supervised/supervisord.conf
+/Users/hongxun/.virtualenvs/aa/bin/supervisord -c /Users/hongxun/Dropbox/share/projects/toolkids/supervised/supervisord.conf
 
-/Users/hongxun/.virtualenvs/aa/bin/supervisorctl -c /Users/hongxun/projects/toolkids/supervised/supervisord.conf restart all
+/Users/hongxun/.virtualenvs/aa/bin/supervisorctl -c /Users/hongxun/Dropbox/share/projects/toolkids/supervised/supervisord.conf restart all
